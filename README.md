@@ -4,8 +4,11 @@
 ![Version](https://img.shields.io/badge/version-1.0.0-green.svg)
 ![TypeScript](https://img.shields.io/badge/TypeScript-5.6.3-blue?logo=typescript)
 ![React](https://img.shields.io/badge/React-18.3.1-blue?logo=react)
+![CI](https://github.com/Siris1B/Additive-Scrambler-Visualizer/workflows/CI/badge.svg)
 
 **Interactive visualization tool for additive scrambler and descrambler with step-by-step binary sequence processing using shift registers and XOR operations**
+
+🌐 **Live Demo:** [View on GitHub Pages](https://siris1b.github.io/Additive-Scrambler-Visualizer/)
 
 ---
 
