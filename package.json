@@ -33,9 +33,7 @@
 		"lint": "eslint .",
 		"preview": "vite preview",
 		"typecheck": "tsc --noEmit",
-		"test": "vitest",
-		"test:ui": "vitest --ui",
-		"test:run": "vitest run"
+		"test": "vitest"
 	},
 	"dependencies": {
 		"@chakra-ui/react": "^2.10.3",
@@ -49,12 +47,12 @@
 		"zod": "^4.3.4"
 	},
 	"devDependencies": {
+		"@eslint/compat": "^2.0.0",
 		"@eslint/js": "^9.39.2",
 		"@testing-library/jest-dom": "^6.9.1",
 		"@types/react": "^18.3.10",
 		"@types/react-dom": "^18.3.0",
 		"@vitejs/plugin-react": "^4.3.2",
-		"@vitest/ui": "^4.0.16",
 		"eslint": "^9.39.2",
 		"eslint-plugin-react": "^7.37.5",
 		"eslint-plugin-react-hooks": "^5.1.0-rc.0",

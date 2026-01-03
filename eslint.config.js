@@ -10,6 +10,16 @@ export default [
 	// Apply the React recommended rules and adapt them for flat config
 	...fixupConfigRules(pluginReactConfig),
 
+	// Configuration for config files (Node.js environment)
+	{
+		files: ['vite.config.js', 'vite.config.ts', '*.config.js', '*.config.ts'],
+		languageOptions: {
+			globals: {
+				...globals.node,
+			},
+		},
+	},
+
 	// Additional configuration object for specific settings
 	{
 		// Define files the config should apply to (adjust as needed)
