@@ -1,0 +1,89 @@
+{
+	"app": {
+		"title": "Additive Scrambler",
+		"subtitle": "Interactive Visualization Tool"
+	},
+	"form": {
+		"title": "Enter Parameters",
+		"schema": "Scheme",
+		"schemaPlaceholder": "Enter binary scheme",
+		"schemaHelper": "Schema determines which register bits are connected to the XOR operation. Where there is 1 in the schema — a line goes from the register to XOR. Where there is 0 — no line",
+		"register": "Initial Shift Register",
+		"registerPlaceholder": "Enter binary register",
+		"registerHelper": "These are the numbers in the squares on the diagram",
+		"input": "Binary Input String",
+		"inputPlaceholder": "Enter binary input",
+		"inputHelper": "This field corresponds to the 'Input' field in the diagram",
+		"submit": "Start Processing",
+		"reset": "Reset to Default",
+		"resetSuccess": "Form reset",
+		"resetDescription": "All fields have been reset to default values"
+	},
+	"validation": {
+		"schemaRequired": "Scheme cannot be empty",
+		"schemaInvalid": "Scheme must contain only 0 and 1",
+		"registerRequired": "Register cannot be empty",
+		"registerInvalid": "Register must contain only 0 and 1",
+		"inputRequired": "Input string cannot be empty",
+		"inputInvalid": "Input string must contain only 0 and 1",
+		"lengthMismatch": "Schema and register lengths must match",
+		"invalidCharsRemoved": "Invalid characters removed",
+		"onlyBinaryAllowed": "{field} can only contain 0 and 1"
+	},
+	"diagram": {
+		"input": "Input",
+		"scrambled": "Scrambled",
+		"descrambled": "Descrambled",
+		"scrambler": "Scrambler",
+		"descrambler": "Descrambler",
+		"iteration": "Iteration",
+		"legend": {
+			"title": "Legend",
+			"input": "Input/Output flow",
+			"scrambled": "Scrambled data",
+			"connected": "Connected register bit"
+		}
+	},
+	"minWidth": {
+		"title": "Insufficient Screen Width",
+		"description": "Minimum width required: {minWidth}px",
+		"currentWidth": "Current width: {width}px",
+		"orientation": "If your device supports orientation change, please rotate to landscape mode"
+	},
+	"toast": {
+		"processingStarted": "Processing started",
+		"processingDescription": "Scrambler is processing input data",
+		"invalidCharsRemoved": "Invalid characters removed"
+	},
+	"error": {
+		"somethingWentWrong": "Something went wrong",
+		"errorOccurred": "Sorry, an error occurred while running the application",
+		"tryAgain": "Try again"
+	},
+	"language": {
+		"select": "Select Language",
+		"english": "English",
+		"ukrainian": "Ukrainian"
+	},
+	"navigation": {
+		"previous": "Previous iteration",
+		"next": "Next iteration",
+		"first": "First",
+		"last": "Last",
+		"iteration": "Iteration {current} of {total}"
+	},
+	"results": {
+		"showAll": "Show All Iterations",
+		"hideAll": "Show One at a Time",
+		"showTable": "View Results Table",
+		"tableTitle": "All Iterations Summary",
+		"iteration": "Iteration",
+		"inputBit": "Input Bit",
+		"xorResult": "XOR Result",
+		"outputBit": "Output Bit",
+		"scrambled": "Scrambled",
+		"descrambled": "Descrambled",
+		"action": "Action",
+		"goTo": "Go to"
+	}
+}
